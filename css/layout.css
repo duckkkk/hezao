@@ -1,0 +1,164 @@
+@media screen and (max-width: 1370px) {
+	.welcome {
+		width: 100%
+	}
+	.wrap1,
+	.wrap2 {
+		width: 100%
+	}
+	.talented {
+		width: 100%
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.top {
+		width: 100%;
+		padding: 0 20px
+	}
+	.banner {
+		width: 100%
+	}
+	.talented {
+		width: 100%
+	}
+	.menu {
+		display: none
+	}
+	.contact {
+		width: 100%
+	}
+	.carousel-indicators {
+		right: 15px
+	}
+	.pro-left,
+	.pro-right {
+		font-size: 1.6rem
+	}
+	.pro-right {
+		padding: 2rem 3rem
+	}
+	.pro-right p {
+		font-size: 2.2rem
+	}
+	.pro-right table {
+		line-height: 2.2rem
+	}
+	.teaching {
+		width: 100%
+	}
+	.view {
+		width: 100%
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.top .menu {
+		display: none
+	}
+	.catalog {
+		display: block
+	}
+	.logo {
+		margin: 10px 0 0 0
+	}
+	.logo img {
+		width: 90px
+	}
+	.pro-left,
+	.pro-right {
+		width: 100%
+	}
+	.pro-right {
+		height: 360px
+	}
+	.pro-left.right {
+		float: left
+	}
+	.person {
+		width: 50%;
+		text-align: center
+	}
+	.person h3 {
+		text-align: center
+	}
+	.person h3:after {
+		left: 50%;
+		transform: translate(-50%, 0)
+	}
+	.person p {
+		padding: 0 40px
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.img2 {
+		width: 100%;
+		margin: 0
+	}
+	.img1 .img2:last-child {
+		display: none
+	}
+	.pro-left {
+		height: 420px
+	}
+	.pro-right {
+		padding: 1rem 1rem
+	}
+	.pro-right p {
+		font-size: 2rem
+	}
+	.pro-right table {
+		line-height: 2rem
+	}
+	.pro-right button.btn-green {
+		margin: 20px 0 0 0
+	}
+	.teaching {
+		width: 100%
+	}
+	.teaching section .teaching-img {
+		width: 100%
+	}
+	.teaching section dl {
+		width: 100%
+	}
+	.contact-left,
+	.contact-right {
+		width: 100%;
+		float: left;
+		padding: 0
+	}
+	.contact-left input,
+	.contact-left textarea,
+	.contact-left button,
+	.contact-right input,
+	.contact-right textarea,
+	.contact-right button {
+		width: 100%
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.person {
+		width: 100%
+	}
+	.person p {
+		padding: 0
+	}
+	.pro-left {
+		height: 320px
+	}
+	.pro-right {
+		padding: 0.5rem 0.5rem
+	}
+	.pro-right p {
+		font-size: 1.8rem
+	}
+	.pro-right table {
+		line-height: 1.8rem
+	}
+	.pro-right button.btn-green {
+		margin: 15px 0 0 0
+	}
+}
